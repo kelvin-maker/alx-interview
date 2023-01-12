@@ -12,7 +12,7 @@ def minOperations(n):
     copied = 0  # how many H's copied
     counter = 0  # operations counter
 
-    while pasted_chars < n:
+    while pasted < n:
         # if did not copy anything yet
         if copied == 0:
             # copy all
@@ -44,7 +44,7 @@ def minOperations(n):
             # copyall
             copied = pasted
             # paste
-            pasted += copy
+            pasted += copied
             # increment operations counter
             counter += 2
 
