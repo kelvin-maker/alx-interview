@@ -3,7 +3,7 @@
 
 
 def minOperations(n):
-    '''write a method that calculates the fewest number of operations 
+    '''write a method that calculates the fewest number of operations
  needed to result in exactly n H characters in the file.
     Returns:
         Integer : if n is impossible to achieve, return 0
@@ -30,7 +30,6 @@ def minOperations(n):
             continue
 
         remaining = n - pasted  # remaining chars to Paste
-        
         if remaining < copied:
             return 0
 

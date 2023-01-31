@@ -1,6 +1,10 @@
 #!/usr/bin/python3
-
 import sys
+"""
+The N queens puzzle is the challenge of placing N non-attacking queens
+on an N×N chessboard. Write a program that solves the N queens problem.
+"""
+
 
 def nqueens(n):
     if n < 4:
@@ -37,6 +41,7 @@ def nqueens(n):
     board = [-1] * n
     solve(board, 0)
     return result
+
 
 if __name__ == '__main__':
     if len(sys.argv) != 2:

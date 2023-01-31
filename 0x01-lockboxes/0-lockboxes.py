@@ -1,7 +1,11 @@
 #!/usr/bin/python3
 """
-lockboxes code determines if all the boxes can be opened by using a set to store the keys and iterating through the boxes, adding the keys in each box to the set if the current box is unlocked (indicated by the presence of a key in the set) and returning whether the set contains keys for all boxes.
+lockboxes code determines if all the boxes can be opened by using a set
+to store the keys and iterating through the boxes,
+adding the keys in each box to the set if the current box is unlocked
 """
+
+
 def canUnlockAll(boxes):
     """
     method that determines if all the boxes can be opened.
